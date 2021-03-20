@@ -1,0 +1,14 @@
+{
+  "name": "procon-api-consumer",
+  "version": "1.0.0",
+  "description": "A node.js api consumer for the PROCONSP API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giovanne Barbosa",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
