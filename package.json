@@ -1,6 +1,6 @@
 {
   "name": "procon-api-consumer",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "A node.js api consumer for the PROCONSP API",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "'https://github.com/g-barbosa/proconsp-api-consumer'"
+    "url": "git+https://github.com/g-barbosa/proconsp-api-consumer.git"
   },
+  "keywords": [
+    "procon",
+    "api",
+    "consumer"
+  ],
   "author": "Giovanne Barbosa",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g-barbosa/proconsp-api-consumer/issues"
+  },
+  "homepage": "https://github.com/g-barbosa/proconsp-api-consumer#readme",
   "dependencies": {
     "axios": "^0.21.1"
   }
