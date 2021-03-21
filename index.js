@@ -2,8 +2,8 @@ const axios = require('axios')
 
 class PROCONAPI {
 
-  constructor(uri, token) {
-    this.uri = uri
+  constructor(token) {
+    this.uri = 'https://gateway.apilib.prefeitura.sp.gov.br/smj/proconsp/v1/'
     this.headers = { 'Authorization': `Bearer ${token}` }
   }
 
