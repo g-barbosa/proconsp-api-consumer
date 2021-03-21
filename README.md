@@ -34,7 +34,6 @@ Realizando a chamada:
   var resultSomenteAno = await api.GetComplaints(2019) // Retorna 20 resultados, do mais antigo para o mais atual
   var resultAnoLimite = await api.GetComplaints(2019, 5) // Retorna 5 resultados, do mais antigo para o mais atual
   var resultAnoLimitePagina = await api.GetComplaints(2019, 5, 2) // Retorna 5 resultados, a partir da página 2. Do mais antigo para o mais atual
-}
 ```
 
 Retorno esperado:
